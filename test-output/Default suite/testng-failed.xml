@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.acttime.customertest.CustomerTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="createCustomerWithDescTest"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.acttime.customertest.CustomerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
